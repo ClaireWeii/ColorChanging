@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         alphaLabel.text = String(format: "%.2f", alphaSlider.value)
     }
     
-    @IBAction func changeGragientColor(_ sender: Any) {
+    @IBAction func gradientColorControl(_ sender: Any) {
         if gradientSwitch.isOn{
             redSlider.isEnabled = false
             greenSlider.isEnabled = false
