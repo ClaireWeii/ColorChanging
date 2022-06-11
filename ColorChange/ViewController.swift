@@ -78,7 +78,8 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func chanreGradientColor(_ sender: Any) {
+    
+    @IBAction func changeGradientColor(_ sender: Any) {
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [
         CGColor(red: 1, green: 182/255, blue: 193/255, alpha: 1),
@@ -89,6 +90,7 @@ class ViewController: UIViewController {
                                                     .value)]
         gradientView.layer.addSublayer(gradientLayer)
     }
+    
     
     func snowEmitter(){
         let snowEmitterCell = CAEmitterCell()

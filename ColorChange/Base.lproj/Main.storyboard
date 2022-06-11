@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xgy-TV-clV">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="Xgy-TV-clV" customClass="ViewController" customModule="ColorChange" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DK9-2g-I9g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ice cream" translatesAutoresizingMaskIntoConstraints="NO" id="FEq-73-nUR">
@@ -22,12 +22,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ice cream" translatesAutoresizingMaskIntoConstraints="NO" id="jVS-gb-TLZ">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="928"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="neon" translatesAutoresizingMaskIntoConstraints="NO" id="cEm-73-3Vm">
-                                <rect key="frame" x="0.0" y="485" width="428" height="430"/>
+                                <rect key="frame" x="0.0" y="490" width="428" height="424"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rCG-be-epE">
@@ -150,7 +150,7 @@
                                 <color key="minimumTrackTintColor" red="0.0" green="0.85011552619999997" blue="0.91878896830000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="changeColor:" destination="Xgy-TV-clV" eventType="valueChanged" id="eRY-3a-Iw0"/>
-                                    <action selector="chanreGradientColor:" destination="Xgy-TV-clV" eventType="valueChanged" id="rzF-DU-pGp"/>
+                                    <action selector="changeGradientColor:" destination="Xgy-TV-clV" eventType="valueChanged" id="s3E-Dk-xdL"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="漸層" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rF-f7-if4">
@@ -191,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZA-Yi-0w9" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26.635514018691588" y="69.330453563714912"/>
+            <point key="canvasLocation" x="25.233644859813083" y="68.682505399568043"/>
         </scene>
     </scenes>
     <resources>
